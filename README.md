@@ -1,4 +1,4 @@
-# machine-interview-preparation 
+# machine-learning-interview-preparation-guide
 
 | Subjects           | Details                                    |
 |--------------------|--------------------------------------------|
