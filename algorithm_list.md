@@ -1,13 +1,13 @@
 # Top Machine Learning Concepts
 
 **Supervised Learning Algorithms:**
-1. Linear Regression
-2. Logistic Regression
+1. [Linear Regression](algo_list/linear_regression.md)
+2. [Logistic Regression](algo_list/logistic_regression.md)
 3. Decision Trees
 4. Random Forest
 5. Support Vector Machines (SVM)
 6. Naive Bayes
-7. k-Nearest Neighbors (k-NN)
+7. [k-Nearest Neighbors (k-NN)](algo_list/knn_classifier.md)
 8. Gradient Boosting (e.g., XGBoost, LightGBM, AdaBoost)
 9. Neural Networks (Deep Learning)
 10. Ensemble methods and stacking
