@@ -7,9 +7,8 @@
 | ML System Design   |                                            |
 | ML Fundamentals    |  [ML Fundamentals](ml_fundamentals.md)                                          |
 | Database           |                                            |
-| Projects           |                                            |
 | Stats              |                                            |
-| Mock Interview     |                                            |
+| Interview Experience     |                                            |
 
 
 Preparing for a machine learning interview requires a systematic approach to ensure you are well-equipped to answer technical questions and demonstrate your problem-solving abilities. Here's a step-by-step preparation strategy:
