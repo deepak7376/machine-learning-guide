@@ -1,4 +1,23 @@
-***k-Nearest Neighbors (k-NN) algorithm***
+**Important Concepts**
+
+The Minkowski distance is a generalization of various distance metrics, including the Euclidean distance and the Manhattan distance. It is defined as:
+For two points \(P\) and \(Q\) in an \(n\)-dimensional space, the Minkowski distance \(D\) between them is calculated as:
+
+\[
+D(P, Q) = \left(\sum_{i=1}^{n} |p_i - q_i|^p\right)^{\frac{1}{p}}
+\]
+
+Where:
+- \(P = (p_1, p_2, ..., p_n)\) and \(Q = (q_1, q_2, ..., q_n)\) are the coordinates of the two points in the \(n\)-dimensional space.
+- \(p\) is a parameter that determines the order of the Minkowski distance:
+  - When \(p = 1\), it corresponds to the Manhattan distance (L1 norm).
+  - When \(p = 2\), it corresponds to the Euclidean distance (L2 norm).
+  - When \(p = \infty\), it corresponds to the Chebyshev distance (maximum absolute difference along any dimension).
+
+The Minkowski distance allows you to control the degree of "sensitivity" to differences in individual dimensions. Smaller values of \(p\) give more weight to larger differences in individual dimensions, whereas larger values of \(p\) make the metric more resistant to differences in individual dimensions.
+
+
+**k-Nearest Neighbors (k-NN) algorithm Implementation**
 
 ```python
 import numpy as np
@@ -55,26 +74,9 @@ if __name__ == "__main__":
 ```
 
 **K-NN drawbacks**
+
 - Computation complexity is very high
 - Sensitive to the Choice of k
 - Distance Metric Selection: wrong distance matrics leads to poor result
 - Storage Requirements: storing training data once for large dataset require more memory
 
-**Important Concept**
-
-The Minkowski distance is a generalization of various distance metrics, including the Euclidean distance and the Manhattan distance. It is defined by the following formula:
-
-For two points \(P\) and \(Q\) in an \(n\)-dimensional space, the Minkowski distance \(D\) between them is calculated as:
-
-\[D(P, Q) = \left(\sum_{i=1}^{n} |p_i - q_i|^p\right)^{\frac{1}{p}}\]
-
-Where:
-- \(P = (p_1, p_2, ..., p_n)\) and \(Q = (q_1, q_2, ..., q_n)\) are the coordinates of the two points in the \(n\)-dimensional space.
-- \(p\) is a parameter that determines the order of the Minkowski distance:
-  - When \(p = 1\), it corresponds to the Manhattan distance (L1 norm).
-  - When \(p = 2\), it corresponds to the Euclidean distance (L2 norm).
-  - When \(p = \infty\), it corresponds to the Chebyshev distance (maximum absolute difference along any dimension).
-
-The Minkowski distance allows you to control the degree of "sensitivity" to differences in individual dimensions. Smaller values of \(p\) give more weight to larger differences in individual dimensions, whereas larger values of \(p\) make the metric more resistant to differences in individual dimensions.
-
-You can compute the Minkowski distance between two points using this formula with the appropriate value of \(p\) depending on your specific use case and the desired distance metric.
