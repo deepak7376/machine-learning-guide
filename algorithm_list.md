@@ -1,4 +1,4 @@
-# Top Machine Learning Concepts
+# Top Machine Learning Concepts Notes
 
 **Supervised Learning Algorithms:**
 1. [Linear Regression](algo_list/linear_regression.md)
