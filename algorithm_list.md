@@ -1,4 +1,5 @@
 # Top Machine Learning Concepts Notes
+These are some of the key algorithms and concepts that you might encounter in a machine learning interview. It's essential to understand the principles behind each algorithm, when to use them, and their strengths and weaknesses. Additionally, you may be asked to implement algorithms, explain their mathematical foundations, or discuss real-world applications. Be prepared to demonstrate your problem-solving skills and your ability to work with real datasets.
 
 **Supervised Learning Algorithms:**
 1. [Linear Regression](algo_list/linear_regression.md)
@@ -84,6 +85,3 @@
 54. Data Imbalance and Resampling
 55. Bias in Machine Learning
 56. Ethics in Machine Learning
-
-
-These are some of the key algorithms and concepts that you might encounter in a machine learning interview. It's essential to understand the principles behind each algorithm, when to use them, and their strengths and weaknesses. Additionally, you may be asked to implement algorithms, explain their mathematical foundations, or discuss real-world applications. Be prepared to demonstrate your problem-solving skills and your ability to work with real datasets.
