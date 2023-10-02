@@ -1,30 +1,3 @@
-The formula for the cross-entropy loss, also known as log loss or softmax loss, is as follows:
-
-**For binary classification (two classes):**
-
-$$\text{Cross-Entropy Loss} = -\left( y \log(p) + (1 - y) \log(1 - p) \right)$$
-
-- $y$ is the true binary label (0 or 1) for the sample.
-- $p$ is the predicted probability that the sample belongs to class 1.
-
-**For multiclass classification (more than two classes):**
-
- $$\text{Categorical Cross-Entropy Loss} = -\sum_{i=1}^{N} \sum_{j=1}^{C} y_{ij} \log(p_{ij})$$
-
- - $N$ is the number of samples.
- - $C$ is the number of classes.
- - $y_{ij}$ is the ground truth probability that sample $i$ belongs to class $j$ (1 if the true class, 0 otherwise).
- - $p_{ij}$ is the predicted probability that sample $i$ belongs to class $j$ according to your model.
-
-**Cross Entropy Derivative**
-
-The formula for the cross-entropy loss for binary classification is:
-
-$$\text{Cross-Entropy Loss} = -\left( y \log(p) + (1 - y) \log(1 - p) \right)$$
-
-$$\frac{d}{dp}\left(-y \log(p) + -(1 - y) \log(1 - p)\right) = -\frac{y}{p} + \frac{1 - y}{1 - p}$$
-
-
 **Logistic Regression Implementation**
 
 ```python
