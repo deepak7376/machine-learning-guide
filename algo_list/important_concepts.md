@@ -1,3 +1,33 @@
+# ReLU
+The derivative of the Rectified Linear Unit (ReLU) activation function depends on the input value.
+
+The ReLU activation function is defined as:
+
+$$
+\text{ReLU}(x) = \begin{cases} 
+x & \text{if } x > 0 \\
+0 & \text{if } x \leq 0 
+\end{cases}
+$$
+```python
+def relu(x):
+    return np.where(x > 0, x, 0)
+```
+
+The derivative of the ReLU function with respect to its input \(x\) is:
+
+$$
+\frac{d}{dx}(\text{ReLU}(x)) = \begin{cases} 
+1 & \text{if } x > 0 \\
+0 & \text{if } x \leq 0 
+\end{cases}
+$$
+
+```python
+def relu_derivative(x):
+    return np.where(x > 0, 1, 0)
+```
+
 # Softmax Function
 
 Certainly! Here's the derivative of the softmax function with respect to one of the logits, Z_i, in the same Markdown format:
