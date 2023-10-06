@@ -6,6 +6,4 @@
 | [ML Fundamentals](algorithm_list.md)          | ML/DL algo implemetation from scratch                             |
 | ML System Design   |                                            |
 | Database           |                                            |
-| Stats              |                                            |
-| Top interview Question             |                                            |
-| Interview Experience     |                                            |
+| Statistics              |                                            |
