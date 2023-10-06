@@ -2,8 +2,8 @@
 
 | Subjects           | Details                                    |
 |--------------------|--------------------------------------------|
-| [General Coding](general_coding/general_coding.md)     |   DSA  (75 Blind) = 75 questions > high depthsolve from leetcode                                         |
-| [ML Fundamentals](algorithm_list.md)          | ML/DL algo implemetation from scratch                             |
+| [General Coding](general_coding/general_coding.md)     |   DSA  (75 Blind) solutions                                         |
+| [ML Fundamentals](algorithm_list.md)          | ML/DL algo implemetation from scratch and their theory                            |
 | ML System Design   |                                            |
 | Database           |                                            |
 | Statistics              |                                            |
