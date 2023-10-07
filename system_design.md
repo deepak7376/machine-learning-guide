@@ -1,5 +1,5 @@
-# ML Deployment Plateform
+# ML Deployment Platform
 
-1. Kubeflow
+1. Train and Deploy an ML model using Kubeflow.
 
 # ML Use cases
