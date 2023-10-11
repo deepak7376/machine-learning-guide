@@ -1,0 +1,15 @@
+<!-- app/templates/dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Sensor Dashboard</title>
+</head>
+<body>
+    <h1>IoT Sensor Dashboard</h1>
+    <ul>
+        {% for data in sensor_data %}
+            <li>{{ data }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
