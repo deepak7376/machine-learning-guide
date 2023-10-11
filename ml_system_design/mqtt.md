@@ -2,6 +2,8 @@ MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe m
 
 In MQTT, there are two primary entities: the MQTT broker, which acts as a message hub, and MQTT clients, which publish messages to topics or subscribe to topics to receive messages.
 
+![MQTT](https://static.javatpoint.com/tutorial/computer-network/images/mqtt-protocol3.png)
+
 Here's a simple example of using the MQTT protocol with Python and the `paho-mqtt` library:
 
 1. **Install the `paho-mqtt` Library**:
