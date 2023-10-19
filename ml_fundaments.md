@@ -1,13 +1,13 @@
 # Machine Learning Concepts Notes
 
 **Supervised Learning Algorithms:**
-1. [Linear Regression](algo_list/linear_regression.md)
-2. [Logistic Regression](algo_list/logistic_regression.md)
+1. [Linear Regression](ml_fundamentals/linear_regression.md)
+2. [Logistic Regression](ml_fundamentals/logistic_regression.md)
 3. Decision Trees
 4. Random Forest
 5. Support Vector Machines (SVM)
 6. Naive Bayes
-7. [k-Nearest Neighbors (k-NN)](algo_list/knn_classifier.md)
+7. [k-Nearest Neighbors (k-NN)](ml_fundamentals/knn_classifier.md)
 8. Gradient Boosting (e.g., XGBoost, LightGBM, AdaBoost)
 9. Neural Networks (Deep Learning)
 10. Ensemble methods and stacking
