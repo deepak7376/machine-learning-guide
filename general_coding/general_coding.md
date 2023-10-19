@@ -9,4 +9,5 @@ DSA Sheet link: https://docs.google.com/spreadsheets/d/110D5qmTFKeySTncxKK74GJ0f
 1. [Depth-First Search (DFS)](dfs.md)
 2. [Breadth-First Search (BFS)](bfs.md)
 3. [Dijkstra's Algorithm](dj.md)
+4. [Implement Graph](graph.md)
    
