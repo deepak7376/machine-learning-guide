@@ -61,3 +61,120 @@ There are three main types of binary tree traversals: in-order, pre-order, and p
    ```
 
 These algorithms are commonly used for exploring binary trees, and you can choose the one that best fits your needs depending on the specific problem or task you're working on.
+
+
+```python
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+def inorderTraversal(root):
+    result = []
+    stack = []
+    current = root
+
+    while stack or current:
+        while current:
+            stack.append(current)
+            current = current.left
+
+        current = stack.pop()
+        result.append(current.val)
+        current = current.right
+
+    return result
+
+# Example usage:
+# Construct a binary tree
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)
+
+# Perform an iterative inorder traversal
+inorder_result = inorderTraversal(root)
+print(inorder_result)  # Outputs: [1, 3, 2]
+```
+
+```python
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+def preorderTraversal(root):
+    result = []
+    stack = []
+
+    if root is None:
+        return result
+
+    stack.append(root)
+
+    while stack:
+        node = stack.pop()
+        result.append(node.val)
+
+        # Push the right child onto the stack first
+        if node.right:
+            stack.append(node.right)
+        # Push the left child onto the stack second (to be processed first)
+        if node.left:
+            stack.append(node.left)
+
+    return result
+
+# Example usage:
+# Construct a binary tree
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)
+
+# Perform an iterative preorder traversal
+preorder_result = preorderTraversal(root)
+print(preorder_result)  # Outputs: [1, 2, 3]
+```
+
+```python
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+def postorderTraversal(root):
+    result = []
+    stack1 = []
+    stack2 = []
+
+    if root is None:
+        return result
+
+    stack1.append(root)
+
+    while stack1:
+        node = stack1.pop()
+        stack2.append(node)
+
+        if node.left:
+            stack1.append(node.left)
+        if node.right:
+            stack1.append(node.right)
+
+    while stack2:
+        result.append(stack2.pop().val)
+
+    return result
+
+# Example usage:
+# Construct a binary tree
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)
+
+# Perform an iterative postorder traversal
+postorder_result = postorderTraversal(root)
+print(postorder_result)  # Outputs: [3, 2, 1]
+```
