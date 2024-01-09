@@ -61,8 +61,8 @@
 
 **Evaluation Metrics and Techniques:**
 
-40. Accuracy, Precision, Recall, F1-Score
-41. ROC Curve and AUC
+40. [Accuracy, Precision, Recall, F1-Score](https://developers.google.com/machine-learning/crash-course/classification/check-your-understanding-accuracy-precision-recall)
+41. [ROC Curve and AUC](https://developers.google.com/machine-learning/crash-course/classification/check-your-understanding-accuracy-precision-recall)
 42. Confusion Matrix
 43. Cross-Validation (e.g., k-fold cross-validation)
 44. Hyperparameter tuning (Grid Search, Random Search, Bayesian Optimization)
