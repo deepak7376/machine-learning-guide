@@ -1,5 +1,9 @@
 # Machine Learning Concepts Notes
 
+[Google Machine Learning Crash Course](https://developers.google.com/machine-learning/foundational-courses)
+[CS231n Notes]()
+[CS229n Notes]()
+
 **Supervised Learning Algorithms:**
 1. [Linear Regression](ml_fundamentals/linear_regression.md)
 2. [Logistic Regression](ml_fundamentals/logistic_regression.md)
