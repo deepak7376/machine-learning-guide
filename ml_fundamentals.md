@@ -1,8 +1,15 @@
-# Machine Learning Concepts Notes
+# Machine Learning Resources
 
-[Google Machine Learning Crash Course](https://developers.google.com/machine-learning/foundational-courses)
-[CS231n Notes]()
-[CS229n Notes]()
+| Resource                                                   |
+| ---------------------------------------------------------- |
+| [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/foundational-courses)  |
+| [CS231n]()                                                  |
+| [CS229n]()                                                  |
+| [Deep Learning for Computer Vision by Michigan University](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) |
+
+
+
+# Machine Learning Concepts
 
 **Supervised Learning Algorithms:**
 1. [Linear Regression](ml_fundamentals/linear_regression.md)
