@@ -70,7 +70,7 @@
 38. One-Class SVM
 39. Autoencoders
 
-**Evaluation Metrics and Techniques:**
+**[Evaluation Metrics and Techniques:](ml_fundamentals/Evaluation_metrics_and_techniques.md)**
 
 40. [Accuracy, Precision, Recall, F1-Score](https://developers.google.com/machine-learning/crash-course/classification/check-your-understanding-accuracy-precision-recall)
 41. [ROC Curve and AUC](https://developers.google.com/machine-learning/crash-course/classification/check-your-understanding-accuracy-precision-recall)
