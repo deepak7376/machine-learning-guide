@@ -2,7 +2,7 @@
 
 | Resource                                                   |
 | ---------------------------------------------------------- |
-| [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/foundational-courses)  |
+| [Google Machine Learning Course](https://developers.google.com/machine-learning)  |
 | [CS231n]()                                                  |
 | [CS229n]()                                                  |
 | [Deep Learning for Computer Vision by Michigan University](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) |
