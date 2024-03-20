@@ -63,6 +63,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+# it is same as preorder_traversal algorithms
 def dfs(root, target):
     if root is None:
         return False
