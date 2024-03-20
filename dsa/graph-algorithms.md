@@ -1,4 +1,4 @@
-To implement a graph in Python using both an adjacency list and an adjacency matrix, you can use classes to represent the graph and its nodes. Here's a basic implementation:
+## Top Graph Algorithms
 
 1. **Adjacency List Implementation:**
 
