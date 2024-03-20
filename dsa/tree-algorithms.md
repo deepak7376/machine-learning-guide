@@ -1,6 +1,6 @@
-# Tree Traversal Algorithms
+# Tree Algorithms
 
-## Traversal Algo
+## 1. Traversal
 
 ```python
 class TreeNode:
@@ -53,7 +53,7 @@ def postorder_traversal(root):
     return result[::-1]  # Reverse the result to get postorder traversal
 ```
 
-## Search Algo
+## 2. Search 
 
 ```python
 
