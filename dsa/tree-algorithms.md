@@ -78,6 +78,7 @@ def dfs(root, target):
             stack.append(current.left)
     return False
 
+# It is equivalent to post traversal algo
 def bfs(root, target):
     if root is None:
         return False
